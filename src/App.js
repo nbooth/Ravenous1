@@ -20,12 +20,18 @@ const business = {
 const businesses = [ business, business, business, business, business, business ];
 
 class App extends Component {
+  //simulator for pressing butron to search
+  searchYelp(term, location, sortBy){
+    console.log("Searching Yelp with Pizza, Brooklyn, best_match");
+  }
+
   render() {
     //imports businesslist and hence its class in order to create a component
+    //add searchBar functionality inside of <SearchBar/> component
     return (
       <div className="App">
         <h1>ravenous</h1>
-        <SearchBar />
+        <SearchBar searchYelp={this.searchYelp}/>
         <BusinessList businesses={businesses} />
       </div>
     );
