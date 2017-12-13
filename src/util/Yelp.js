@@ -1,6 +1,4 @@
-const clientId = '5plWqBAMTFBkvxgNaOlc-w';
 const apiKey = '5iqMMOjBHmxKIsbGNW5Uh0yzSqMkl02BGt0FrRSmApT_E7RFKyfo3bhin6C4cm02k9WIVXIUoZ4uwaeXGRXjAvED0MmrgKFXF_PfyBFHrR4XstNrJAxIgcf2x1AwWnYx';
-const secret = 'xeAtgiJssrhOwXhMpUbeulRYbA9qmbAk7aGmwv1hdCeuTvLKl1dpFzs8hPYth1Ef';
 let accessToken = '';
 
 //https://cors-anywhere.herokuapp.com/https://api.yelp.com/oauth2/token?grant_type=client_credentials&client_id=${clientId}&client_secret=${secret}`
